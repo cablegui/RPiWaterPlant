@@ -5,7 +5,7 @@
 <body>
 <h1>Pi Motor Control App</h1>
 <?php
-$mysqli = new mysqli('localhost','root','ga01r4956','pi');
+$mysqli = new mysqli('localhost','root','xxxxxxx','pi');
 if ($mysqli->connect_error) 
 {
  die('Connect Error ('. $mysqli->connect_error . ')' . $mysqli->connect_error);
